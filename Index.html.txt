@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenboyMC | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <header>
+        <div class="hero">
+            <img src="images/avatar.png" alt="GreenboyMC" class="avatar">
+            <h1>GreenboyMC</h1>
+            <p>Web Developer | Gamer | Minecraft Enthusiast 🚀</p>
+            <button id="theme-toggle">🌙 Dark Mode</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="about card">
+            <h2>Về Mình</h2>
+            <p>Xin chào! Mình là GreenboyMC, đam mê code web và chơi Minecraft. Mình thích xây dựng những trang web đẹp, mượt mà với hiệu ứng toxic green lung linh.</p>
+        </section>
+
+        <section class="skills card">
+            <h2>Kỹ Năng</h2>
+            <div class="skill-grid">
+                <div class="skill-item">HTML/CSS <span>90%</span></div>
+                <div class="skill-bar"><div class="bar-fill" style="width:90%"></div></div>
+                <div class="skill-item">JavaScript <span>85%</span></div>
+                <div class="skill-bar"><div class="bar-fill" style="width:85%"></div></div>
+                <div class="skill-item">Minecraft Modding <span>70%</span></div>
+                <div class="skill-bar"><div class="bar-fill" style="width:70%"></div></div>
+            </div>
+        </section>
+
+        <section class="projects card">
+            <h2>Dự Án</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Mô tả dự án của bạn nhé!</p>
+                    <a href="#">Xem Demo ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 GreenboyMC | <a href="https://github.com/GreenboyMC">GitHub</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
